@@ -3,7 +3,7 @@
 #
 
 # Adicione a origem ao executável deste projeto.
-add_executable (CPPCrashCourse "CPPCrashCourse.cpp" "CPPCrashCourse.h" "Exercicios/Ex1.cpp" "Exercicios/Ex1.h")
+add_executable (CPPCrashCourse "CPPCrashCourse.cpp" "CPPCrashCourse.h" "Exercicios/Ex1.cpp" "Exercicios/Ex1.h" "Exercicios/Ex2.cpp" "Exercicios/Ex2.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CPPCrashCourse PROPERTY CXX_STANDARD 20)
